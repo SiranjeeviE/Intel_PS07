@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text to Image Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🖼️ Text to Image Generator</h1>
+    <p>Enter a text prompt below and watch it turn into an image!</p>
+
+    <input type="text" id="prompt" placeholder="e.g. A dragon flying over a castle">
+    <button onclick="generateImage()">Generate Image</button>
+
+    <div class="image-section">
+      <p id="status"></p>
+      <img id="resultImage" src="#" alt="Generated Image" style="display: none;">
+    </div>
+  </div>
+
+  <footer>
+    <p> Created by Human</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
